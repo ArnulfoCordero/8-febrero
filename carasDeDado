@@ -1,0 +1,106 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {		
+}
+function mousePressed() {
+  background(32);
+  var randomValue = random();
+  if(randomValue < 0.1666){
+    carauno();
+  }
+  else if(randomValue < 0.3333){
+    carados();
+  }
+  else if(randomValue < 0.5){
+    caratres();
+  }
+  else if(randomValue < 0.6666){
+    caracuatro();
+  }
+  else if(randomValue < 0.8333){
+    caracinco();
+  }
+  else{
+    caraseis();
+  }
+}
+	
+	function carauno(){
+	background(0);
+	fill(255);
+	rect(150,150,100,100);
+	fill(0);
+	ellipse(200,200,25,25)
+	}
+  
+  function carados(){
+	background(0);
+	fill(255);
+	rect(150,150,100,100);
+	fill(0);
+	ellipse(175,175,25,25);
+	fill(0);
+	ellipse(225,225,25,25);
+	}
+
+  function caratres(){
+	background(0);
+	fill(255);
+	rect(150,150,100,100);
+	fill(0);
+	ellipse(175,175,25,25);
+	fill(0);
+	ellipse(225,225,25,25);
+	fill(0);
+	ellipse(200,200,25,25);
+	}
+
+  function caracuatro(){
+	background(0);
+	fill(255);
+	rect(150,150,100,100);
+	fill(0);
+	ellipse(175,175,25,25);
+	fill(0);
+	ellipse(225,225,25,25);
+	fill(0);
+	ellipse(225,175,25,25);
+	fill(0);
+	ellipse(175,225,25,25);
+	}
+
+  function caracinco(){
+	background(0);
+	fill(255);
+	rect(150,150,100,100);
+	fill(0);
+	ellipse(175,175,25,25);
+	fill(0);
+	ellipse(225,225,25,25);
+	fill(0);
+	ellipse(225,175,25,25);
+	fill(0);
+	ellipse(175,225,25,25);
+	fill(0);
+	ellipse(200,200,25,25);
+	}
+
+  function caraseis(){
+  background(0);
+	fill(255);
+	rect(150,150,100,100);
+	fill(0);
+	ellipse(175,175,25,25);
+	fill(0);
+	ellipse(225,225,25,25);
+	fill(0);
+	ellipse(225,175,25,25);
+	fill(0);
+	ellipse(175,225,25,25);
+	fill(0);
+	ellipse(175,200,25,25);
+	fill(0);
+	ellipse(225,200,25,25);
+	}
